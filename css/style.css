@@ -1,0 +1,213 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-image:url(../images/pp_02.png);
+}
+.aa{
+    background:#39664E !important;
+}
+.ab{
+    color:#C4B291 !important;
+    font-size:20px;
+    font-weight:bold;
+}
+.ac{
+    color:#C4B291 !important;
+}
+.ac:hover{
+    color:#39664E !important;
+}
+.menu:hover{
+    background:#C4B291 ;
+}
+.ss{
+    background:#fff;
+    width:100%;
+    min-height:300px;
+    height:auto;
+    border:5px solid #C4B291;
+}
+.s1{
+    float:right;
+}
+.head1{
+    color:#39664E;
+    text-shadow:2px 2px #ccc;
+    margin-bottom:20px;
+}
+.alb{
+    width:100%;
+    min-height:650px;
+    height:auto;
+    background:#fff;
+    border:5px solid #C4B291;
+    
+
+}
+.pics{
+    box-shadow: 20px 20px 50px grey;
+   
+}
+.abo{
+    width: 100%;
+    min-height:500px;
+    height:auto;
+    background:#fff;
+    border:5px solid #C4B291;
+}
+.text p{
+    font-size:18px;
+    line-height:40px;
+    padding:5px;
+}
+.circle{
+    box-shadow: 20px 20px 50px grey;
+}
+.footer{
+    width:100%;
+    min-height:200px;
+    height:auto;
+    background:#39664E;
+}
+.map{
+    padding:0;
+}
+h1{
+    color:#C4B291;
+}
+.social{
+    color:#C4B291;
+}
+.social:hover{
+    color:#867b65;
+}
+footer{
+    background:#39664E;
+    color:#C4B291;
+}
+a{
+    cursor: pointer;
+}
+.hvr-bounce-in {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+  }
+  .hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  }
+  /*float shadow*/
+  .hvr-float-shadow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .hvr-float-shadow:before {
+    pointer-events: none;
+    position: absolute;
+    z-index: -1;
+    content: '';
+    top: 100%;
+    left: 5%;
+    height: 10px;
+    width: 90%;
+    opacity: 0;
+    background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+    /* W3C */
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform, opacity;
+    transition-property: transform, opacity;
+  }
+  .hvr-float-shadow:hover, .hvr-float-shadow:focus, .hvr-float-shadow:active {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+    /* move the element up by 5px */
+  }
+  .hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before {
+    opacity: 1;
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+    /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+  }
+  /*bob*/
+  @-webkit-keyframes hvr-bob {
+    0% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+    50% {
+      -webkit-transform: translateY(-4px);
+      transform: translateY(-4px);
+    }
+    100% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+  }
+  @keyframes hvr-bob {
+    0% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+    50% {
+      -webkit-transform: translateY(-4px);
+      transform: translateY(-4px);
+    }
+    100% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+  }
+  @-webkit-keyframes hvr-bob-float {
+    100% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+  }
+  @keyframes hvr-bob-float {
+    100% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+  }
+  .hvr-bob {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+  .hvr-bob:hover, .hvr-bob:focus, .hvr-bob:active {
+    -webkit-animation-name: hvr-bob-float, hvr-bob;
+    animation-name: hvr-bob-float, hvr-bob;
+    -webkit-animation-duration: .3s, 1.5s;
+    animation-duration: .3s, 1.5s;
+    -webkit-animation-delay: 0s, .3s;
+    animation-delay: 0s, .3s;
+    -webkit-animation-timing-function: ease-out, ease-in-out;
+    animation-timing-function: ease-out, ease-in-out;
+    -webkit-animation-iteration-count: 1, infinite;
+    animation-iteration-count: 1, infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-direction: normal, alternate;
+    animation-direction: normal, alternate;
+  }
+  
